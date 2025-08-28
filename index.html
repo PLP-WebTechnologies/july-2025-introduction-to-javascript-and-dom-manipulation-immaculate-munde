@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Eligibility Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Voting Eligibility Checker</h1>
+    </header>
+
+    <main>
+        <!-- User Input Form -->
+        <section id="user-input">
+            <h2>Enter Your Details</h2>
+            <label for="name-input">Name:</label>
+            <input type="text" id="name-input" placeholder="Your name" required>
+            <br>
+            <label for="age-input">Age:</label>
+            <input type="number" id="age-input" placeholder="Your age" required>
+            <br>
+            <button id="check-btn">Check Eligibility</button>
+        </section>
+
+        <!-- Results Display -->
+        <section id="results">
+            <h2>Results</h2>
+            <p id="greeting"></p>
+            <p id="result"></p>
+        </section>
+
+        <!-- Loop Example: Check multiple friends -->
+        <section id="friends">
+            <h2>Check Friends' Eligibility</h2>
+            <ul id="friends-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Immaculate Munde. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
